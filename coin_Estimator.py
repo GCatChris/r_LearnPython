@@ -12,5 +12,5 @@ for coin, weight, value, roll in coin_types:
 	total_rolls = ceil(total_coins / roll)
 	total_value = total_coins * value
 	print "You have %d %s totaling $%.2f. You will need %d rolls." % (total_coins, 
-													coin, total_value, total_rolls)
+									coin, total_value, total_rolls)
 	
